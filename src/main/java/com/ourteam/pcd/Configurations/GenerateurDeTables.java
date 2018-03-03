@@ -9,6 +9,11 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.service.ServiceRegistry;
 import org.hibernate.tool.hbm2ddl.SchemaExport;
 import org.hibernate.tool.schema.TargetType;
+
+import com.ourteam.pcd.Entity.Compte;
+import com.ourteam.pcd.Entity.Etudiant;
+import com.ourteam.pcd.Persistance.CompteHome;
+import com.ourteam.pcd.Persistance.EtudiantHome;
  
 // Hibernate 5.
 public class GenerateurDeTables {
@@ -60,6 +65,20 @@ public class GenerateurDeTables {
  
    public static void main(String[] args) {
 	   new GenerateurDeTables();
+	   System.out.println("Salut");
+	   EtudiantHome gestEtudiant = new EtudiantHome();
+	   CompteHome gestCompte= new CompteHome();
+	   Etudiant amine= new Etudiant();
+	   Compte c = new Compte();
+	   c.setEmail("amine@gmail.com");
+	   c.setPassword("white");
+	   gestCompte.persist(c);
+	   amine.setCompte(c);
+	   amine.setNom("Ben Rejeb");
+	   amine.setPrenom("Amine");
+	   amine.setNumInscription("II000000");
+	   amine.setTelephone("12345678");
+	   gestEtudiant.persist(amine);
    }
     
 }
