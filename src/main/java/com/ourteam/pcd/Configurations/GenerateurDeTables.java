@@ -56,7 +56,7 @@ public class GenerateurDeTables {
  
    public static void createDataBase(SchemaExport export, Metadata metadata) {
        EnumSet<TargetType> targetTypes = EnumSet.of(TargetType.DATABASE, TargetType.SCRIPT, TargetType.STDOUT);
-
+     
        SchemaExport.Action action = SchemaExport.Action.CREATE;
        export.execute(targetTypes, action, metadata);
        System.out.println("Export OK");
@@ -64,20 +64,20 @@ public class GenerateurDeTables {
    }
  
    public static void main(String[] args) {
-	   new GenerateurDeTables();
+	   System.out.println("Salut");
 	   System.out.println("Salut");
 	   EtudiantHome gestEtudiant = new EtudiantHome();
 	   CompteHome gestCompte= new CompteHome();
 	   Etudiant amine= new Etudiant();
 	   Compte c = new Compte();
-	   c.setEmail("amine@gmail.com");
-	   c.setPassword("white");
+	   c.setEmail("amine2@gmail.com");
+	   c.setPassword("whi3te");
 	   gestCompte.persist(c);
 	   amine.setCompte(c);
 	   amine.setNom("Ben Rejeb");
 	   amine.setPrenom("Amine");
-	   amine.setNumInscription("II000000");
-	   amine.setTelephone("12345678");
+	   amine.setNumInscription("II100000");
+	   amine.setTelephone("14345678");
 	   gestEtudiant.persist(amine);
    }
     
