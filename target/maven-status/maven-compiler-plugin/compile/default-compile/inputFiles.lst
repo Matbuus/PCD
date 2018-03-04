@@ -6,10 +6,10 @@
 /Users/malekattia/Documents/PCD/PCD/src/main/java/com/ourteam/pcd/Services/CompteService.java
 /Users/malekattia/Documents/PCD/PCD/src/main/java/com/ourteam/pcd/Entity/Enseignant.java
 /Users/malekattia/Documents/PCD/PCD/src/main/java/com/ourteam/pcd/Entity/Matiere.java
+/Users/malekattia/Documents/PCD/PCD/src/main/java/com/ourteam/pcd/Persistence/Dao/CompteRepository.java
 /Users/malekattia/Documents/PCD/PCD/src/main/java/com/ourteam/pcd/Test.java
-/Users/malekattia/Documents/PCD/PCD/src/main/java/com/ourteam/pcd/Persistence/Dao/EtudiantDao.java
-/Users/malekattia/Documents/PCD/PCD/src/main/java/com/ourteam/pcd/Persistence/Dao/CompteDao.java
 /Users/malekattia/Documents/PCD/PCD/src/main/java/com/ourteam/pcd/HomeController.java
+/Users/malekattia/Documents/PCD/PCD/src/main/java/com/ourteam/pcd/Persistence/Dao/EtudiantRepository.java
 /Users/malekattia/Documents/PCD/PCD/src/main/java/com/ourteam/pcd/Services/EtudiantServiceImpl.java
 /Users/malekattia/Documents/PCD/PCD/src/main/java/com/ourteam/pcd/Entity/Compte.java
 /Users/malekattia/Documents/PCD/PCD/src/main/java/com/ourteam/pcd/Entity/Utilisateur.java

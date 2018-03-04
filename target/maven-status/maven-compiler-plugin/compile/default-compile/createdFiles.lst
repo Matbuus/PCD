@@ -1,10 +1,11 @@
 com/ourteam/pcd/Entity/ResponsableScolarite.class
 com/ourteam/pcd/Services/EtudiantService.class
 com/ourteam/pcd/Configurations/PcdConfig.class
+com/ourteam/pcd/Persistence/Dao/EtudiantRepository.class
 com/ourteam/pcd/HomeController.class
+com/ourteam/pcd/Persistence/Dao/CompteRepository.class
 com/ourteam/pcd/Test.class
 com/ourteam/pcd/Entity/Matiere.class
-com/ourteam/pcd/Persistence/Dao/EtudiantDao.class
 com/ourteam/pcd/Entity/Etudiant.class
 com/ourteam/pcd/Services/EtudiantServiceImpl.class
 com/ourteam/pcd/Configurations/PcdPersistenceConfig.class
@@ -15,4 +16,3 @@ com/ourteam/pcd/Services/CompteServiceImpl.class
 com/ourteam/pcd/Services/CompteService.class
 com/ourteam/pcd/Configurations/PcdPersistenceConfig$1.class
 com/ourteam/pcd/Entity/Compte.class
-com/ourteam/pcd/Persistence/Dao/CompteDao.class

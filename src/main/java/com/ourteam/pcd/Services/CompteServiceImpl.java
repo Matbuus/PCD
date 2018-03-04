@@ -6,12 +6,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.ourteam.pcd.Entity.Compte;
-import com.ourteam.pcd.Persistence.Dao.CompteDao;
+import com.ourteam.pcd.Persistence.Dao.CompteRepository;
 
 @Service
 public class CompteServiceImpl implements CompteService {
 	@Autowired
-	CompteDao compteDao;
+	CompteRepository compteDao;
 
 	@Override
 	public List<Compte> findAll() {

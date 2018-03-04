@@ -6,12 +6,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.ourteam.pcd.Entity.Etudiant;
-import com.ourteam.pcd.Persistence.Dao.EtudiantDao;
+import com.ourteam.pcd.Persistence.Dao.EtudiantRepository;
 
 @Service
 public class EtudiantServiceImpl implements EtudiantService {
 	@Autowired
-	EtudiantDao etudiantDao;
+	EtudiantRepository etudiantDao;
 	
 	@Override
 	public List<Etudiant> findAll() {
