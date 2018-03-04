@@ -23,5 +23,15 @@ public class Classe {
 	public void setNom(String nom) {
 		this.nom = nom;
 	}
+	@Column(name="nom2")
+	private String nom2;
+
+	public String getNom2() {
+		return nom2;
+	}
+
+	public void setNom2(String nom2) {
+		this.nom2 = nom2;
+	}
 	
 }

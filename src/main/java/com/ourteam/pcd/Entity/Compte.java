@@ -12,6 +12,11 @@ public class Compte {
 	public Compte() {
 		
 	}
+	public Compte(String email, String password) {
+		super();
+		this.email = email;
+		this.password = password;
+	}
 	@Id
 	@Column(name="email")
 	private String email;

@@ -9,6 +9,14 @@ public class Utilisateur {
 
 	public Utilisateur() {}
 	
+	public Utilisateur(Compte compte, String nom, String prenom, String telephone) {
+		super();
+		this.compte = compte;
+		this.nom = nom;
+		this.prenom = prenom;
+		this.telephone = telephone;
+	}
+
 	@OneToOne
 	@JoinColumn(name="email", unique=true,nullable=false) // Jointure avec la table Compte en utilisant la colonne "email"
 	protected Compte compte;

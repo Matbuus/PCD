@@ -23,5 +23,10 @@ public class Etudiant extends Utilisateur {
 	public void setNumInscription(String numInscription) {
 		this.numInscription = numInscription;
 	}
+
+	public Etudiant(String numInscription, Compte compte, String nom, String prenom, String telephone) {
+		super(compte, nom, prenom, telephone);
+		this.numInscription=numInscription;
+	}
 	
 }
