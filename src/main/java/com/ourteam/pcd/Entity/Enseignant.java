@@ -1,5 +1,4 @@
 package com.ourteam.pcd.Entity;
-import javax.persistence.AttributeOverrides;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;

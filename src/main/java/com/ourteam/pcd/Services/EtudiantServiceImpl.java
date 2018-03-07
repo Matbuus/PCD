@@ -37,7 +37,7 @@ public class EtudiantServiceImpl implements EtudiantService {
 
 	@Override
 	public void delete(String arg0) {
-		// TODO Auto-generated method stub
+		
 		
 	}
 

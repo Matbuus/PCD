@@ -3,7 +3,6 @@ package com.ourteam.pcd.Services;
 import java.util.List;
 
 import com.ourteam.pcd.Entity.Compte;
-import com.ourteam.pcd.Entity.Etudiant;
 
 
 public interface CompteService {

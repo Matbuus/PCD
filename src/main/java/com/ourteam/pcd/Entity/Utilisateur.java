@@ -3,7 +3,6 @@ package com.ourteam.pcd.Entity;
 import javax.persistence.*;
 
 @MappedSuperclass
-@Table(name="Utilisateur")
 @Inheritance(strategy=InheritanceType.TABLE_PER_CLASS)
 public class Utilisateur {
 

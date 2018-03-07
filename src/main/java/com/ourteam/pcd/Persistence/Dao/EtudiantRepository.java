@@ -7,5 +7,5 @@ import com.ourteam.pcd.Entity.Etudiant;
 
 @Repository("etudiantDao")
 public interface EtudiantRepository extends JpaRepository<Etudiant, String>  {
-
+		
 }

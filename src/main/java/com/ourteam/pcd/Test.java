@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Service
 public class Test {
 
-	@RequestMapping(value = "/malek", method = RequestMethod.GET)
+	@RequestMapping(value = "/test", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
-		System.out.println("Malek");
+		System.out.println("test");
 		return "home";
 	}
 }
