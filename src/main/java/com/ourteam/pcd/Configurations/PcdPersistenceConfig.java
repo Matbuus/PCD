@@ -1,4 +1,4 @@
-package com.ourteam.pcd.Configurations;
+package com.ourteam.pcd.configurations;
 
 import java.util.Properties;
 
@@ -51,7 +51,7 @@ public class PcdPersistenceConfig {
 
 		LocalContainerEntityManagerFactoryBean entityManagerFactoryBean = new LocalContainerEntityManagerFactoryBean();
 		entityManagerFactoryBean.setDataSource(dataSource(env));
-		entityManagerFactoryBean.setPackagesToScan(new String[] { "com.ourteam.pcd.Entity" });
+		entityManagerFactoryBean.setPackagesToScan(new String[] { "com.ourteam.pcd.entities" });
 		entityManagerFactoryBean.setLoadTimeWeaver(new InstrumentationLoadTimeWeaver());
 		entityManagerFactoryBean.setJpaVendorAdapter(new HibernateJpaVendorAdapter());
 		entityManagerFactoryBean.setJpaProperties(hibernateProperties(env));

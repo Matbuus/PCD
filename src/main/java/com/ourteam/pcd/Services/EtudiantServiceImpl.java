@@ -5,8 +5,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.ourteam.pcd.Entity.Etudiant;
 import com.ourteam.pcd.Persistence.Dao.EtudiantRepository;
+import com.ourteam.pcd.entities.Etudiant;
 
 @Service
 public class EtudiantServiceImpl implements EtudiantService {

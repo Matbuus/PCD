@@ -1,5 +1,4 @@
 package com.ourteam.pcd.testDao;
-import org.aspectj.lang.annotation.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,11 +9,11 @@ import org.springframework.test.context.support.DependencyInjectionTestExecution
 
 import com.github.springtestdbunit.DbUnitTestExecutionListener;
 import com.github.springtestdbunit.TransactionDbUnitTestExecutionListener;
-import com.ourteam.pcd.Configurations.PcdConfig;
-import com.ourteam.pcd.Entity.Compte;
-import com.ourteam.pcd.Entity.Etudiant;
 import com.ourteam.pcd.Services.CompteService;
 import com.ourteam.pcd.Services.EtudiantService;
+import com.ourteam.pcd.configurations.PcdConfig;
+import com.ourteam.pcd.entities.Compte;
+import com.ourteam.pcd.entities.Etudiant;
 
 
 @RunWith(SpringJUnit4ClassRunner.class)

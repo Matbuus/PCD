@@ -5,8 +5,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.ourteam.pcd.Entity.Compte;
 import com.ourteam.pcd.Persistence.Dao.CompteRepository;
+import com.ourteam.pcd.entities.Compte;
 
 @Service
 public class CompteServiceImpl implements CompteService {

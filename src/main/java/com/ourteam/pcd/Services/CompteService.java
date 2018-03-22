@@ -2,8 +2,7 @@ package com.ourteam.pcd.Services;
 
 import java.util.List;
 
-import com.ourteam.pcd.Entity.Compte;
-import com.ourteam.pcd.Entity.Etudiant;
+import com.ourteam.pcd.entities.Compte;
 
 
 public interface CompteService {

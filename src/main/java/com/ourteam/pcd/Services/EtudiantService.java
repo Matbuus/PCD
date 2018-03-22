@@ -2,7 +2,7 @@ package com.ourteam.pcd.Services;
 
 import java.util.List;
 
-import com.ourteam.pcd.Entity.Etudiant;
+import com.ourteam.pcd.entities.Etudiant;
 
 
 public interface EtudiantService {

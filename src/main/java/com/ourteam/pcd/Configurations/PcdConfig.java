@@ -1,4 +1,4 @@
-package com.ourteam.pcd.Configurations;
+package com.ourteam.pcd.configurations;
 
 import java.io.IOException;
 
